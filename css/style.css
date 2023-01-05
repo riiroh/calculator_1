@@ -1,0 +1,64 @@
+
+.container {
+    width: 200px;
+    margin: 50px auto;
+    background-color: #000;
+    border: 2px solid #ccc;
+    max-width: 100%;
+}
+
+header {
+    color: #fff;
+    margin: auto;
+    text-align: center;  
+}
+
+header h1 {
+    font-size: 30px;
+    color: rgb(211, 119, 119);
+}
+
+.formula {
+    height: 40px;
+    color: #fff;
+    line-height: 50px;
+    text-align: right;
+    padding: 5px;
+    margin-bottom: 5px;
+    border: 2px solid #ccc;
+    max-width: 100%;
+}
+
+.output {
+    height: 40px;
+    color: #fff;
+    line-height: 50px;
+    text-align: right;
+    padding: 5px;
+    margin-bottom: 5px;
+    border:2px solid #ccc;
+    box-sizing: border-box;
+}
+
+.input {
+    border: 2px solid #ccc;
+    color: #fff;
+}
+
+.row { 
+    display: flexbox;
+    justify-content: space-between;
+    margin: 2px;
+    border: 1px solid rgba(145, 13, 13, 0.856);
+}
+
+.num_btn, #clear, #equal_btn, .btn2{
+    width: 35px;
+    height: 35px;
+    text-align: center;
+    font-size: 15px;
+    border-radius: 20%;
+    background: #bbb;
+    box-shadow: 1px 1px 3px rgba(255,255,255, 0.8);
+    cursor: pointer;
+}
